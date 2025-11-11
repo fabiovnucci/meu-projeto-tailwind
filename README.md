@@ -1,4 +1,25 @@
-Projeto de Hotel com Tailwind CSS
-📌 Visão Geral
-Este projeto é um website moderno e responsivo para um hotel, desenvolvido utilizando Tailwind CSS.
-O design prioriza a experiência do usuário com uma interface limpa, atraente e funcional em todos os dispositivos.
+# 🎨 Meu Projeto Tailwind CSS
+
+Projeto de estudo com Tailwind CSS contendo componentes e layouts responsivos.
+
+## 🚀 Funcionalidades
+
+- Componentes de UI (inputs, badges, botões)
+- Formulário de login
+- Grid de imagens responsivo
+- Design system com Tailwind
+
+## 🛠️ Tecnologias
+
+- HTML5
+- Tailwind CSS
+- CSS3
+
+## 📦 Como executar
+
+```bash
+# Instalar dependências
+npm install
+
+# Executar em modo desenvolvimento
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
