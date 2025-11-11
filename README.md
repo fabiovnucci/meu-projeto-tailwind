@@ -1,21 +1,27 @@
-# 🎨 Meu Projeto Tailwind CSS
+# 🏨 Site de Hotel Resort
 
-Projeto de estudo com Tailwind CSS contendo componentes e layouts responsivos.
+Site responsivo para hotel resort desenvolvido com Tailwind CSS, apresentando resorts paradisíacos e sistema de reservas.
 
-## 🚀 Funcionalidades
+## 🌴 Sobre o Projeto
 
-- Componentes de UI (inputs, badges, botões)
-- Formulário de login
-- Grid de imagens responsivo
-- Design system com Tailwind
+Site moderno e responsivo para rede de hotéis resort, com design elegante e focado na experiência do usuário.
 
-## 🛠️ Tecnologias
+## ✨ Funcionalidades
 
-- HTML5
-- Tailwind CSS
-- CSS3
+- 🏠 **Header responsivo** com navegação intuitiva
+- 🎯 **Seção hero** com busca por localização
+- ⭐ **Resort em destaque** com informações detalhadas
+- 🖼️ **Galeria de resorts** com grid responsivo
+- 📱 **Design mobile-first**
+- 🎨 **Interface moderna** com Tailwind CSS
 
-## 📦 Como executar
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5** - Estrutura semântica
+- **Tailwind CSS** - Estilização e design system
+- **CSS3** - Estilos customizados
+
+## 🚀 Como Executar
 
 ```bash
 # Instalar dependências
@@ -23,3 +29,6 @@ npm install
 
 # Executar em modo desenvolvimento
 npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+# Abrir o site
+start dist/index.html
